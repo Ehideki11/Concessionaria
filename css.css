@@ -337,6 +337,10 @@ h3 {
     .compras section.produto button {
         font-size: 70%;
     }
+
+    #logo {
+        display: none;
+    }
 }  
 
 @media screen and (max-width: 768px) {
@@ -384,11 +388,51 @@ h3 {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
     }
-  }
 
-@media screen and (min-width: 960px) {
+    .compras section.produto .icon {
+        width: 350px;
+        height: 350px;    
+    }
+
+  }
+  
+  @media screen and (min-width: 960px) {
     .slide img {
       width: 1000px;
       height: 600px;
     }
+}
+
+@media screen and (max-width: 1879px) {
+    .compras {
+        flex-direction: column;      
+    }
+
+    .compras section.produto {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    .compras section.produto:last-child {
+        margin-bottom: 0;
+    }
+
+    .compras section.produto button {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .nav-bar .logo {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 349px) {
+    .compras section.produto .icon {
+        width: 200px;
+        height: 200px;    
+    }
+
 }
