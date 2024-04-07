@@ -35,7 +35,7 @@ header {
     margin: 0 15px;
 }
 
-.nav-link {
+.navlink {
     text-decoration: none;
     font-size: 1.15rem;
     color: #fff;
@@ -49,7 +49,7 @@ header {
     border-radius: 5px;
 }
 
-.login-button button a {
+.login-button a button  {
     text-decoration: none;
     color: #fff;
     font-weight: 500;
